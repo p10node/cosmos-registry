@@ -39,6 +39,18 @@ All output is written to the `assets/` directory:
 
 `<schema>`: `versions`, `memo_keys`, `chains`, `ibc_data`
 
+## ☁️ Public Snapshots
+
+All generated data files are publicly hosted at https://s3-files.p10node.onl/cosmos/chain-registry, examples:
+
+```
+https://s3-files.p10node.onl/cosmos/chain-registry/chains.json
+https://s3-files.p10node.onl/cosmos/chain-registry/chains.min.json
+...
+```
+
+These snapshots are **automatically updated every 30 minutes**. You can always download the latest versions directly from the URL above.
+
 ## 🛠️ Usage
 
 ```bash
