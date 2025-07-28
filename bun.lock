@@ -1,0 +1,17 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "@p10node/cosmos-registry",
+      "dependencies": {
+        "@chain-registry/types": "^2.0.31",
+        "chain-registry": "^2.0.31",
+      },
+    },
+  },
+  "packages": {
+    "@chain-registry/types": ["@chain-registry/types@2.0.31", "", {}, "sha512-mIkF41k3pTHwMZEOq7/z/QYNk0oMOZiUKpGLghDN65R3vGkD8xskqd9RjXqh8e67XqstsUM4YNl9fxZe65Ni+w=="],
+
+    "chain-registry": ["chain-registry@2.0.31", "", { "dependencies": { "@chain-registry/types": "^2.0.31" } }, "sha512-CC5kHel3R+MaufBu+9ulovX8gwB9EqmJUXHgRffFwjC6qN9FwmzyCa51LoupEn448pzckaelXfEs2tFrNXofKQ=="],
+  }
+}

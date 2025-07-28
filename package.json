@@ -1,0 +1,15 @@
+{
+  "name": "@p10node/cosmos-registry",
+  "version": "0.1.0",
+  "main": "src/main.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "reload": "bun upgrade && bun install",
+    "direct": "bun run src/main.ts"
+  },
+  "dependencies": {
+    "@chain-registry/types": "^2.0.31",
+    "chain-registry": "^2.0.31"
+  }
+}
