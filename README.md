@@ -76,7 +76,7 @@ Use cases include:
 
 ## 📁 Example Output
 
-```json
+```jsonc
 // chains.chainId.json
 {
   "zetachain_7000-1": {
