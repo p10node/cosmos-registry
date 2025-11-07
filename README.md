@@ -1,11 +1,13 @@
 
 # 🧩 p10node Cosmos Chain Registry Snapshot Generator
 
+Online JSON for chains from Cosmos Registry: https://s3-files.p10node.onl/cosmos/chain-registry/chains.min.json
+
 A utility for generating parsed, schema-annotated snapshots of [Cosmos chain-registry](https://github.com/cosmos/chain-registry) data - including chains, assets, and IBC metadata - with both human-readable and minimized JSON formats.
 
 ## ✨ Features
 
-- Fetches and saves the latest JSON Schemas from the official Cosmos chain-registry ()
+- Fetches and saves the latest JSON Schemas from the official Cosmos chain-registry
 - Parses and annotates:
   - **Chains** (`chain.json`)
   - **AssetLists** (`assetlist.json`)

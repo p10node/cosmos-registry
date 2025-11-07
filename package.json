@@ -6,10 +6,15 @@
   "private": true,
   "scripts": {
     "reload": "bun upgrade && bun install",
-    "direct": "bun run src/main.ts"
+    "direct": "bun run src/main.ts",
+    "lint": "biome format --write ."
   },
   "dependencies": {
-    "@chain-registry/types": "^2.0.31",
-    "chain-registry": "^2.0.31"
+    "@chain-registry/types": "^2.0.98",
+    "chain-registry": "^2.0.98"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.4",
+    "@types/node": "^24.10.0"
   }
 }
